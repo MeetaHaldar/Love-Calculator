@@ -15,25 +15,28 @@
   </head>
   <body>
     <section>
-      <div class="blur"></div>
-      <div class="container p-3">
+     
+      <div class="container p-1">
         <h1 class="text-center m-auto p-2 heading">Love Calculator</h1>
 
         <div class="p-4 in-box shadow rounded">
 
         
-<div class="p-4">
-<input class=" mb-2" type="text" placeholder="Enter your name">
-<input class="mt-2 mb-2" type="text" placeholder="Enter his/her name" aria-label="default input example">
+<form class="p-4" id="myForm">
+<input class=" mb-2 input" type="text" placeholder="Enter your name" id="Fname" required>
+<input class="mt-2 mb-2 input" type="text" placeholder="Enter his/her name" aria-label="default input example" required>
 
-</div>
-<button class="btn btn-lg btn-dark text-center" id="generate">
-    Calcuate love
+</form>
+<button class="btn btn-lg btn-dark text-center" id="generate" type="submit">
+    Calculate love
+  </button>
+  <button class="btn btn-info text-center m-2 btn-lg"  id="reset" type="reset">
+    Reset Name
   </button>
 </div>
 
-  <p class="text-center result shadow rounded p-1 m-1">Start Now</p>
-  <img class="text-center img-fluid m-auto image" src="" alt="error from resources, try again later ⚠">
+  <p class="text-center result shadow rounded"></p>
+  <img class="text-center img-fluid m-auto image" src="https://c.tenor.com/Gj7mlQDKYqAAAAAC/white-cat-grey-cat.gif" alt="error from resources, try again later ⚠">
 
 </div>
 </section>

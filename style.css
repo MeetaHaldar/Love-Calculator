@@ -50,7 +50,7 @@ input{
     background-color: rgba(221, 37, 37, 0.3) ;;
 }
 .btn{
-    margin-left: 13vw;
+    margin-left: 9vw;
 }
 .result{
     font-size: 2rem !important;
@@ -65,7 +65,7 @@ input{
 }
 .image{
     max-width: 100%;
-    border: 3px solid crimson;
+    /* border: 3px solid crimson; */
     border-radius: 20px;
     display: flex;
     justify-content: center;
