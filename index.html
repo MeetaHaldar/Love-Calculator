@@ -15,16 +15,23 @@
   </head>
   <body>
     <section>
-     
+   
       <div class="container p-1">
+        <div class="btn-group ml-1" role="group" aria-label="Basic mixed styles example">
+          <button type="button" id="1" class="btn btn-danger">1</button>
+          <button type="button" id="2" class="btn btn-warning">2</button>
+          <button type="button" id="3" class="btn btn-success">3</button>
+          <button type="button"id="4" class="btn btn-danger">4</button>
+          <button type="button"id="5" class="btn btn-warning">5</button>
+        </div>
         <h1 class="text-center m-auto p-2 heading">Love Calculator</h1>
 
         <div class="p-4 in-box shadow rounded">
 
         
 <form class="p-4" id="myForm">
-<input class=" mb-2 input" type="text" placeholder="Enter your name" id="Fname" required>
-<input class="mt-2 mb-2 input" type="text" placeholder="Enter his/her name" aria-label="default input example" required>
+<input class=" mb-2 input" value="" type="text" placeholder="Enter your name" id="Fname" required>
+<input class="mt-2 mb-2 input" value="" type="text" placeholder="Enter his/her name" aria-label="default input example" id="Lname" required>
 
 </form>
 <button class="btn btn-lg btn-dark text-center" id="generate" type="submit">

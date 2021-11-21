@@ -1,17 +1,27 @@
+// selecting wallpaper buttons
+
+
+
+
 // selecting button 
 const generateBtn = document.querySelector("#generate");
 
+const resetBtn=document.querySelector("#reset");
+
 
 // for verification of presence of input value 
-let myInput =document.querySelector(".input");
+let myInput1 =document.getElementById("Fname");
+let myInput2 =document.getElementById("Lname");
+
 
 // as a default we are setting button to disable
 generateBtn.disabled = true;
+resetBtn.disabled=true;
 
-myInput.addEventListener("change", stateHandle);
+myInput2.addEventListener("change", stateHandle);
 
 function stateHandle() {
-    if(document.querySelector(".input").value==="") {
+    if(myInput1.value===""  ||  myInput2.value==="") {
         generateBtn.disabled = true;
         resetBtn.disabled=true;
     } else {
@@ -20,10 +30,11 @@ function stateHandle() {
     }
 }
 
+
+
 // for reset button
 
-const resetBtn=document.querySelector("#reset");
-resetBtn.disabled=true;
+
 resetBtn.addEventListener("click",()=>
 {
     {
