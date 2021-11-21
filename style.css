@@ -4,7 +4,7 @@
      background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA); 
     background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
 } */
-    html,section{
+    section{
         background: url('./images/heart5.jpg') center center/cover ;
         background-repeat: no-repeat;
         

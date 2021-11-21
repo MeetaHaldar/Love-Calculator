@@ -1,9 +1,6 @@
-// selecting wallpaper buttons
 
 
-
-
-// selecting button 
+// selecting button5
 const generateBtn = document.querySelector("#generate");
 
 const resetBtn=document.querySelector("#reset");
@@ -76,3 +73,8 @@ else{
 }
 
 });
+
+myInput1.addEventListener('keydown', () => {
+   console.log(myInput1);
+    
+  });
