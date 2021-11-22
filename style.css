@@ -22,8 +22,6 @@ padding: 30px 0 !important;
 }
 .container{
     max-width: 40% !important;
-  
-
 }
 
 input:focus::placeholder {
